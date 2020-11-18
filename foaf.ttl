@@ -1,4 +1,4 @@
-@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+@base <http://github.com/DaniferMoreno/Lab-9/blob/main/foaf.ttl> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,15 +10,21 @@
 
 
 <> a foaf:Document ;
-   dc:date "2020-11-17"^^xsd:date ;
-   dc:title "Aidan's FOAF Profile"@en ;
+   dc:date "2020-11-18"^^xsd:date ;
+   dc:title "Danifer's FOAF Profile"@en ;
    foaf:primaryTopic <#dmc> ;
    dc:creator <#dmc> .
 
-<#ah> a foaf:Person ;
+<#dmc> a foaf:Person ;
    rdfs:label "Danifer Moreno Cartes" ;
    rdfs:comment "Estudiante del DII"@es ;
    foaf:name "Danifer Moreno Cartes" ;
    foaf:givenName "Danifer" ;
    foaf:familyName "Moreno Cartes" ;
-   foaf:age 23 .
+   foaf:age 23 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:avatar <http://pbs.twimg.com/media/EmxEhLwW4AAPYuK?format=jpg&name=large> ;
+   foaf:homepage <http://www.linkedin.com/in/danifer-moreno-cartes-b96046140/> ;
+   foaf:knows <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ;
+   social:hasEnemy <t http://users.dcc.uchile.cl/~ahogan/foaf.ttl> ;
+   foaf:interest wd:Q54837 , wd:Q19829492 , wd:Q1168073 , wd:Q1168073, wd:Q4050885 ;
+   foaf:myersBriggs "INTP" .
