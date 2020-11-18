@@ -30,4 +30,4 @@
    foaf:interest wd:Q7889 , wd:Q1375 , wd:Q35831 , wd:Q213449 ;
    social:hasSpiritAnimal wd:Q187704 ;
    foaf:phone "+56985817888";
-   foaf:myersBriggs "INTP" .
+   foaf:myersBriggs "ISFP" .
