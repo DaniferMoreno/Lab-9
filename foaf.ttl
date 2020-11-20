@@ -25,8 +25,8 @@
    foaf:age 23 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
    foaf:avatar <http://https://cdn.gamer-network.net/2020/usgamer/kirby_wearing_pants_2_11122020.jpg> ;
    foaf:homepage <http://www.linkedin.com/in/danifer-moreno-cartes-b96046140/> ;
-   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://raw.githubusercontent.com/MariParra/lab9/main/foaf.ttl> ;
-   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://raw.githubusercontent.com/MariParra/lab9/main/foaf.ttl> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://raw.githubusercontent.com/MariParra/lab9/main/foaf.ttl> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl>;
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://raw.githubusercontent.com/MariParra/lab9/main/foaf.ttl> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl> ;
    foaf:interest wd:Q7889 , wd:Q1375 , wd:Q35831 , wd:Q213449 ;
    social:hasSpiritAnimal wd:Q187704 ;
    foaf:phone "+56985817888";
