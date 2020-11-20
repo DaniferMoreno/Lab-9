@@ -29,5 +29,4 @@
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://raw.githubusercontent.com/MariParra/lab9/main/foaf.ttl> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl> ;
    foaf:interest wd:Q7889 , wd:Q1375 , wd:Q35831 , wd:Q213449 , wd:Q219421 , wd:Q261759 ;
    social:hasSpiritAnimal wd:Q187704 ;
-   foaf:phone "+56985817888";
    foaf:myersBriggs "ISFP" .
